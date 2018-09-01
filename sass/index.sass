@@ -1,0 +1,174 @@
+.clearfix
+    +clearFix
+.intro-area
+    padding: 50px 0
+.slogan
+    text-align: center
+    position: relative
+    +size(auto,64px)
+.slogan:before
+    content: " "
+    +size(461px,1px)
+    +centerer
+    border: 1px solid #979797
+    +iphone
+      display: none
+.slogan-text
+    +centerer
+    background-color: $color_brown_light
+    +iphone
+        display: none
+.slogan-text-rwd
+    display: none
+    +iphone
+        display: block
+.slogan-text h2
+    +text($color_brown,'Microsoft JhengHei',20px,normal,32px)
+.slogan-text-rwd h2
+    +text($color_brown,'Microsoft JhengHei',20px,normal,32px)
+
+
+.intro
+    background-color: $color_brown_light
+    text-align: center
+    // margin: 31px 2% 0 2%
+.intro li
+    float: left
+    +size(28.33333%,auto)
+    margin: 30px 2.5%
+    padding: 1%
+    +iphone
+        float: none
+        +size(98%,auto)
+        margin: 30px 1%
+        padding: 1%
+.intro li h3
+     +text($color_brown,'Microsoft JhengHei',18px,normal,auto)
+     margin-bottom: 11px
+.intro li p
+     +text($color_brown,'Microsoft JhengHei',16px,normal,auto)
+     text-align: left
+     +iphone
+        padding: 0 13%
+.intro-img
+    +size(200px,200px)
+    border-radius: 50%
+    margin-bottom: 20px
+.chief-intro
+    background-color: $color_brown
+.chief-photo
+    background-image: url(../img/main_chef_brown.png)
+    background-repeat: no-repeat
+    background-position: center center
+    +size(47%,460px)
+    margin-left: 3%
+    float: left
+    +iphone
+        float: none
+        margin: 0
+        +size(100%,460px)
+        
+.chief
+    +size(43%,auto)
+    margin-left: 2%
+    float: left
+    margin-top: 80px
+    +text(#EFE9E7,'Microsoft JhengHei',16px,100,auto)
+    +iphone
+        float: none
+        +size(100%,auto)
+        padding: 30px
+        margin: 0
+.name
+    margin-bottom: 1em
+.name h3
+    +text(#EFE9E7,'Microsoft JhengHei',20px,normal,32px)
+.feedback-area
+    padding: 50px 0
+    background-color: $color_brown_light
+.feedback-title
+    text-align: center
+    margin-bottom: 32px
+    +text($color_brown,'Microsoft JhengHei',24px,normal,auto)   
+.feedback-list
+    background-color: $color_brown_light 
+.feedback-list li
+    float: left
+    +size(30.33333%,auto)
+    margin: 0 1.5%
+    +iphone
+        float: none  
+        +size(90%,auto)
+        margin: 0 0 0 7%
+.feedback-list li h3
+     +text($color_brown,'Microsoft JhengHei',18px,normal,auto)
+     margin-bottom: 22px
+.feedback-list li p
+     +text($color_brown,'Microsoft JhengHei',16px,normal,auto)
+.feedback-list li .sign
+    text-align: right  
+    margin-top: 16px   
+.feedback-img
+    +size(64px,64px)
+    border-radius: 50%
+    float: left
+.feedback-text
+    +size(72%,auto)
+    float: left
+    padding-left: 13px
+    padding-top: 23px 
+.contact-area
+    padding: 50px 0
+    background-color: rgba(250,250,250,0.70)
+.contact-title
+    text-align: center
+    margin-bottom: 32px
+    +text($color_brown,'Microsoft JhengHei',24px,normal,auto)
+.contact-map
+    float: left
+    background-image: url(../img/Map.png)
+    background-repeat: no-repeat
+    background-position: center center
+    +size(46%,386px)
+    margin-left: 4%
+    +iphone
+        float: none
+        +size(94%,386px)
+        margin: 0 3% 30px 3% 
+.contact-form
+    +size(43%,auto)
+    margin-left: 2%
+    float: left
+    +text($color_brown,'Microsoft JhengHei',14px,100,auto)
+    +iphone
+        +size(94%,auto)
+        margin: 0 3% 
+.box-area label
+    display: block
+    margin-bottom: 6px
+.box-area input
+    +size(100%,32px)
+    margin-bottom: 12px
+    +text($color_gray,'Microsoft JhengHei',16px,100,auto)
+.vege label
+    display: block
+    margin-bottom: 6px
+.no
+    margin-left: 32px 
+.btn
+    text-align: right
+    margin-top: 28px
+.btn div
+    display: inline-block
+.btn a
+    +text($color_white,'Microsoft JhengHei',14px,100,auto)
+    padding: 6px 19px
+    background-color:  rgba(0,0,0,0.35)
+    border-radius: 3px
+.btn input
+    +text($color_white,'Microsoft JhengHei',14px,100,auto)
+    padding: 6px 19px
+    background-color: $color_orange
+    border-radius: 3px
+    margin-left: 11px
+    cursor: pointer

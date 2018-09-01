@@ -1,0 +1,107 @@
+.clearfix
+    +clearFix
+.wrap
+    background-color: $color_brown_light
+    min-height: 100%
+.nav
+    background-color: rgba(0,0,0,0.75)
+    +size(auto,56px)
+.nav h1
+    float: left
+    margin: 4.5px 42px
+.logo
+    +text($color_white,'Noto Sans TC',24px,bold)
+
+.menu-show .menu
+    +iphone
+        max-height: 500px
+.menu    
+    float: right
+    margin-right: 18px
+    +iphone
+        max-height: 0px
+        overflow: hidden
+        transition: max-height 1s
+        position: absolute
+        z-index: 100
+        top: 55px
+        left: 0px
+        right: 0px
+        text-align: center
+        margin: 0
+.fa-bars
+    display: none
+    +iphone
+        color: $color_white
+        font-size: 24px
+        float: right
+        margin: 16px 24px
+        cursor: pointer
+.menu li
+    float: left
+    +iphone
+        float: none
+        background-color: $color_black
+.menu li a
+    +text($color_white,'Microsoft JhengHei',16px,normal)
+    display: block
+    padding: 18px 30px
+.menu li a:hover
+    background-color: $color_gray
+.banner
+    background-image: url(../img/header_desktop.png)
+    +size(auto,420px)
+    background-position: center center
+    background-repeat: no-repeat
+    background-color: $color_black
+    position: relative
+    +iphone
+        background-image: url(../img/header_mobile.png)
+.banner-title
+    position: absolute
+    +centerer
+    text-align: center
+    +size(460px,auto)
+    background-color: rgba(0,0,0,0.35)
+    +iphone
+        +size(300px,auto)
+.banner-title span
+    +iphone
+        display: block
+.banner-title h2
+    +text($color_white,'Microsoft JhengHei',36px,100,auto)
+    margin: 20px 0
+.banner-title .banner-text
+    +text($color_white,'Microsoft JhengHei',16px,100,24px)
+    margin-bottom: 26px
+.footer
+    padding: 20px 0
+.info
+    background-color: $color_brown_light 
+.info li
+    float: left
+    +size(31.33333%,auto)
+    margin: 30px 1%   
+    padding: 0 2%
+    +iphone
+        float: none
+        +size(94%,auto)
+        margin: 30px 3% 
+.info li h2
+     +text($color_brown,'Microsoft JhengHei',24px,normal,auto)
+     margin-bottom: 3%
+.info li p
+     +text($color_brown,'Microsoft JhengHei',16px,normal,auto)
+.footer-logo
+    text-align: right
+.link
+    margin-top: 22px
+.link a
+    font-size: 36px
+.fa-google-plus-square
+    color: #DB4437
+.fa-twitter-square
+    color: #41ABE1
+    margin: 0 12px
+.fa-facebook-square
+    color: #3A5795

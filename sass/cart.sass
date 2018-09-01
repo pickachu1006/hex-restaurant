@@ -1,0 +1,148 @@
+.cart-page
+    padding-top: 48px
+    padding-bottom: 16px
+.aside
+    float: left
+    +size(25%,auto)
+    padding-left: 3%
+    +iphone
+        float: none
+        +size(94%,auto)
+        padding: 0
+        margin: 0 3%
+.main
+    float: left
+    +size(75%,auto)
+    padding-right: 3%
+    +iphone
+        float: none
+        +size(94%,auto)
+        padding: 0
+        margin: 3%
+.foodlist
+    +text($color_brown,'Microsoft JhengHei',20px,normal,32px)
+.foodlist i
+    margin: 0 15px 20px 0
+.foodlist li
+    border-bottom: 1px solid $color_brown
+    cursor: pointer
+.foodlist .clicked-bg
+    background-color: $color_brown
+.foodlist li a
+    +text($color_brown,'Microsoft JhengHei',16px,normal,auto)
+    padding: 3%
+.foodlist li .clicked
+    color: $color_white
+.top-bar
+    +size(100%,auto)
+.search-bar
+    float: left
+    margin-left: 3%
+    +iphone
+        margin: 0
+        +size(100%,auto)
+.search-input
+    border: 2px solid $color_brown
+    background-color: $color_brown_light
+    +size(420px,32px)
+    float: left
+    +text($color_brown,'Microsoft JhengHei',16px,normal,auto)
+    +pad
+        +size(350px,32px)
+    +iphone6-1
+        +size(300px,32px)
+    +iphone
+        margin: 0
+        +size(90%,32px)
+    +iphone6-2
+        +size(89%,32px)  
+.fa-search
+    font-size: 20px
+    padding: 6px
+    color: $color_white
+    background-color: $color_brown
+    cursor: pointer 
+.cart
+    float: right
+    +iphone
+        margin-top: 3%
+.cart-text
+    border-right: 1px solid $color_brown
+    padding-right: 10px
+    +text($color_brown,'Microsoft JhengHei',16px,normal,auto)
+.icon
+    position: relative
+    display: inline-block
+.fa-shopping-cart
+    font-size: 29px
+    padding-left: 10px
+    color: $color_brown
+.icon-num
+    position: absolute
+    top: -4px
+    right: -4px
+    border-radius: 50%
+    text-align: center
+    +size(16px,16px)
+    +text($color_white,'Microsoft JhengHei',12px,normal,auto)
+    background-color: $color_orange
+.card-list li
+    float: left
+    +size(30.33333%,auto)
+    margin: 30px 0 0 3%
+    box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.16)
+    +iphone6-1
+        +size(47%,50%)
+    +iphone
+        margin: 30px 0 0 2%
+    +iphone6-2
+        float: none
+        +size(94%,auto)
+        margin: 30px 3% 0 3%
+        padding-bottom: 1%
+.card-photo
+    +size(100%,120px)
+    background-repeat: no-repeat
+    background-position: center center
+.fa-heart
+    font-size: 20px
+    color: $color_white
+    margin: 9px
+    +iphone6-2
+        margin: 5% 10%
+.card-text
+    text-align: center
+    margin: 11px 0 16px 0
+.card-text h3
+    +text($color_brown,'Microsoft JhengHei',20px,100,auto)
+.card-text p
+    +text($color_brown,'Microsoft JhengHei',12px,100,auto)
+.card-text .line
+    +size(91px,0)
+    border: 1px solid $color_brown
+    margin: 8px auto 20px auto
+.card-text .money
+    +text($color_brown,'Roboto',20px,bold,auto,italic)
+.card-add
+    border: 2px solid $color_orange
+    border-radius: 3px
+    display: block
+    margin: 10px
+    text-align: center
+.card-add .fa-shopping-cart
+    font-size: 14px
+    color: $color_orange
+.card-add span
+    +text($color_orange,'Microsoft JhengHei',16px,100,auto)
+.hot
+    position: relative
+    overflow: hidden
+.ribbon
+    position: absolute
+    transform: rotate(-315deg)
+    background: #00CC99
+    +text($color_white,'Noto Sans TC',14px,600,auto,auto)
+    right: -34px
+    top: 16px
+.ribbon p
+    padding: 1px 30px

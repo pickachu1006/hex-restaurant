@@ -1,0 +1,1073 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url("https://fonts.googleapis.com/css?family=Roboto:300i,400,700i,900i");
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  font-family: "Helvetica", "Microsoft JhengHei"; }
+
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table; }
+
+.clearfix:after {
+  display: block;
+  clear: both;
+  height: 1px;
+  margin-top: -1px;
+  visibility: hidden; }
+
+.clearfix {
+  *zoom: 1; }
+
+.wrap {
+  background-color: #EFE9E7;
+  min-height: 100%; }
+
+.nav {
+  background-color: rgba(0, 0, 0, 0.75);
+  width: auto;
+  height: 56px; }
+
+.nav h1 {
+  float: left;
+  margin: 4.5px 42px; }
+
+.logo {
+  font-family: "Noto Sans TC";
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: auto;
+  font-style: atuo; }
+
+@media (max-width: 568px) {
+  .menu-show .menu {
+    max-height: 500px; } }
+
+.menu {
+  float: right;
+  margin-right: 18px; }
+  @media (max-width: 568px) {
+    .menu {
+      max-height: 0px;
+      overflow: hidden;
+      -webkit-transition: max-height 1s;
+      -o-transition: max-height 1s;
+      transition: max-height 1s;
+      position: absolute;
+      z-index: 100;
+      top: 55px;
+      left: 0px;
+      right: 0px;
+      text-align: center;
+      margin: 0; } }
+
+.fa-bars {
+  display: none; }
+  @media (max-width: 568px) {
+    .fa-bars {
+      color: #ffffff;
+      font-size: 24px;
+      float: right;
+      margin: 16px 24px;
+      cursor: pointer; } }
+
+.menu li {
+  float: left; }
+  @media (max-width: 568px) {
+    .menu li {
+      float: none;
+      background-color: #000000; } }
+
+.menu li a {
+  font-family: "Microsoft JhengHei";
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: normal;
+  line-height: auto;
+  font-style: atuo;
+  display: block;
+  padding: 18px 30px; }
+
+.menu li a:hover {
+  background-color: #4A4A4A; }
+
+.banner {
+  background-image: url(../img/header_desktop.png);
+  width: auto;
+  height: 420px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: #000000;
+  position: relative; }
+  @media (max-width: 568px) {
+    .banner {
+      background-image: url(../img/header_mobile.png); } }
+
+.banner-title {
+  position: absolute;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 460px;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.35); }
+  @media (max-width: 568px) {
+    .banner-title {
+      width: 300px;
+      height: auto; } }
+
+@media (max-width: 568px) {
+  .banner-title span {
+    display: block; } }
+
+.banner-title h2 {
+  font-family: "Microsoft JhengHei";
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: 100;
+  line-height: auto;
+  font-style: atuo;
+  margin: 20px 0; }
+
+.banner-title .banner-text {
+  font-family: "Microsoft JhengHei";
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 100;
+  line-height: 24px;
+  font-style: atuo;
+  margin-bottom: 26px; }
+
+.footer {
+  padding: 20px 0; }
+
+.info {
+  background-color: #EFE9E7; }
+
+.info li {
+  float: left;
+  width: 31.33333%;
+  height: auto;
+  margin: 30px 1%;
+  padding: 0 2%; }
+  @media (max-width: 568px) {
+    .info li {
+      float: none;
+      width: 94%;
+      height: auto;
+      margin: 30px 3%; } }
+
+.info li h2 {
+  font-family: "Microsoft JhengHei";
+  font-size: 24px;
+  color: #3D1101;
+  font-weight: normal;
+  line-height: auto;
+  font-style: atuo;
+  margin-bottom: 3%; }
+
+.info li p {
+  font-family: "Microsoft JhengHei";
+  font-size: 16px;
+  color: #3D1101;
+  font-weight: normal;
+  line-height: auto;
+  font-style: atuo; }
+
+.footer-logo {
+  text-align: right; }
+
+.link {
+  margin-top: 22px; }
+
+.link a {
+  font-size: 36px; }
+
+.fa-google-plus-square {
+  color: #DB4437; }
+
+.fa-twitter-square {
+  color: #41ABE1;
+  margin: 0 12px; }
+
+.fa-facebook-square {
+  color: #3A5795; }
+
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table; }
+
+.clearfix:after {
+  display: block;
+  clear: both;
+  height: 1px;
+  margin-top: -1px;
+  visibility: hidden; }
+
+.clearfix {
+  *zoom: 1; }
+
+.intro-area {
+  padding: 50px 0; }
+
+.slogan {
+  text-align: center;
+  position: relative;
+  width: auto;
+  height: 64px; }
+
+.slogan:before {
+  content: " ";
+  width: 461px;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border: 1px solid #979797; }
+  @media (max-width: 568px) {
+    .slogan:before {
+      display: none; } }
+
+.slogan-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: #EFE9E7; }
+  @media (max-width: 568px) {
+    .slogan-text {
+      display: none; } }
+
+.slogan-text-rwd {
+  display: none; }
+  @media (max-width: 568px) {
+    .slogan-text-rwd {
+      display: block; } }
+
+.slogan-text h2 {
+  font-family: "Microsoft JhengHei";
+  font-size: 20px;
+  color: #3D1101;
+  font-weight: normal;
+  line-height: 32px;
+  font-style: atuo; }
+
+.slogan-text-rwd h2 {
+  font-family: "Microsoft JhengHei";
+  font-size: 20px;
+  color: #3D1101;
+  font-weight: normal;
+  line-height: 32px;
+  font-style: atuo; }
+
+.intro {
+  background-color: #EFE9E7;
+  text-align: center; }
+
+.intro li {
+  float: left;
+  width: 28.33333%;
+  height: auto;
+  margin: 30px 2.5%;
+  padding: 1%; }
+  @media (max-width: 568px) {
+    .intro li {
+      float: none;
+      width: 98%;
+      height: auto;
+      margin: 30px 1%;
+      padding: 1%; } }
+
+.intro li h3 {
+  font-family: "Microsoft JhengHei";
+  font-size: 18px;
+  color: #3D1101;
+  font-weight: normal;
+  line-height: auto;
+  font-style: atuo;
+  margin-bottom: 11px; }
+
+.intro li p {
+  font-family: "Microsoft JhengHei";
+  font-size: 16px;
+  color: #3D1101;
+  font-weight: normal;
+  line-height: auto;
+  font-style: atuo;
+  text-align: left; }
+  @media (max-width: 568px) {
+    .intro li p {
+      padding: 0 13%; } }
+
+.intro-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px; }
+
+.chief-intro {
+  background-color: #3D1101; }
+
+.chief-photo {
+  background-image: url(../img/main_chef_brown.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 47%;
+  height: 460px;
+  margin-left: 3%;
+  float: left; }
+  @media (max-width: 568px) {
+    .chief-photo {
+      float: none;
+      margin: 0;
+      width: 100%;
+      height: 460px; } }
+
+.chief {
+  width: 43%;
+  height: auto;
+  margin-left: 2%;
+  float: left;
+  margin-top: 80px;
+  font-family: "Microsoft JhengHei";
+  font-size: 16px;
+  color: #EFE9E7;
+  font-weight: 100;
+  line-height: auto;
+  font-style: atuo; }
+  @media (max-width: 568px) {
+    .chief {
+      float: none;
+      width: 100%;
+      height: auto;
+      padding: 30px;
+      margin: 0; } }
+
+.name {
+  margin-bottom: 1em; }
+
+.name h3 {
+  font-family: "Microsoft JhengHei";
+  font-size: 20px;
+  color: #EFE9E7;
+  font-weight: normal;
+  line-height: 32px;
+  font-style: atuo; }
+
+.feedback-area {
+  padding: 50px 0;
+  background-color: #EFE9E7; }
+
+.feedback-title {
+  text-align: center;
+  margin-bottom: 32px;
+  font-family: "Microsoft JhengHei";
+  font-size: 24px;
+  color: #3D1101;
+  font-weight: normal;
+  line-height: auto;
+  font-style: atuo; }
+
+.feedback-list {
+  background-color: #EFE9E7; }
+
+.feedback-list li {
+  float: left;
+  width: 30.33333%;
+  height: auto;
+  margin: 0 1.5%; }
+  @media (max-width: 568px) {
+    .feedback-list li {
+      float: none;
+      width: 90%;
+      height: auto;
+      margin: 0 0 0 7%; } }
+
+.feedback-list li h3 {
+  font-family: "Microsoft JhengHei";
+  font-size: 18px;
+  color: #3D1101;
+  font-weight: normal;
+  line-height: auto;
+  font-style: atuo;
+  margin-bottom: 22px; }
+
+.feedback-list li p {
+  font-family: "Microsoft JhengHei";
+  font-size: 16px;
+  color: #3D1101;
+  font-weight: normal;
+  line-height: auto;
+  font-style: atuo; }
+
+.feedback-list li .sign {
+  text-align: right;
+  margin-top: 16px; }
+
+.feedback-img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  float: left; }
+
+.feedback-text {
+  width: 72%;
+  height: auto;
+  float: left;
+  padding-left: 13px;
+  padding-top: 23px; }
+
+.contact-area {
+  padding: 50px 0;
+  background-color: rgba(250, 250, 250, 0.7); }
+
+.contact-title {
+  text-align: center;
+  margin-bottom: 32px;
+  font-family: "Microsoft JhengHei";
+  font-size: 24px;
+  color: #3D1101;
+  font-weight: normal;
+  line-height: auto;
+  font-style: atuo; }
+
+.contact-map {
+  float: left;
+  background-image: url(../img/Map.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 46%;
+  height: 386px;
+  margin-left: 4%; }
+  @media (max-width: 568px) {
+    .contact-map {
+      float: none;
+      width: 94%;
+      height: 386px;
+      margin: 0 3% 30px 3%; } }
+
+.contact-form {
+  width: 43%;
+  height: auto;
+  margin-left: 2%;
+  float: left;
+  font-family: "Microsoft JhengHei";
+  font-size: 14px;
+  color: #3D1101;
+  font-weight: 100;
+  line-height: auto;
+  font-style: atuo; }
+  @media (max-width: 568px) {
+    .contact-form {
+      width: 94%;
+      height: auto;
+      margin: 0 3%; } }
+
+.box-area label {
+  display: block;
+  margin-bottom: 6px; }
+
+.box-area input {
+  width: 100%;
+  height: 32px;
+  margin-bottom: 12px;
+  font-family: "Microsoft JhengHei";
+  font-size: 16px;
+  color: #4A4A4A;
+  font-weight: 100;
+  line-height: auto;
+  font-style: atuo; }
+
+.vege label {
+  display: block;
+  margin-bottom: 6px; }
+
+.no {
+  margin-left: 32px; }
+
+.btn {
+  text-align: right;
+  margin-top: 28px; }
+
+.btn div {
+  display: inline-block; }
+
+.btn a {
+  font-family: "Microsoft JhengHei";
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 100;
+  line-height: auto;
+  font-style: atuo;
+  padding: 6px 19px;
+  background-color: rgba(0, 0, 0, 0.35);
+  border-radius: 3px; }
+
+.btn input {
+  font-family: "Microsoft JhengHei";
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 100;
+  line-height: auto;
+  font-style: atuo;
+  padding: 6px 19px;
+  background-color: #F56C23;
+  border-radius: 3px;
+  margin-left: 11px;
+  cursor: pointer; }
+
+@media (min-height: 1366px) {
+  .login-page {
+    padding-top: 56px;
+    padding-bottom: 215px; } }
+
+.login-top {
+  text-align: center;
+  padding: 50px 0 35px 0; }
+
+.login-title {
+  font-family: "Noto Sans TC";
+  font-size: 48px;
+  color: #3D1101;
+  font-weight: 900;
+  line-height: 56px;
+  font-style: auto; }
+
+.login-top p {
+  font-family: "Noto Sans TC";
+  font-size: 20px;
+  color: #3D1101;
+  font-weight: 600;
+  line-height: auto;
+  font-style: auto; }
+
+.login-form {
+  padding: 15px;
+  margin: 0 auto;
+  width: 300px;
+  height: auto;
+  -webkit-box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.16);
+  box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.16);
+  border-top: 3px solid #F56C23; }
+
+.login-form h3 {
+  text-align: center;
+  font-family: "Noto Sans TC";
+  font-size: 18px;
+  color: #3D1101;
+  font-weight: 900;
+  line-height: auto;
+  font-style: auto;
+  margin-bottom: 15px; }
+
+.login-form label {
+  display: block;
+  font-family: "Microsoft JhengHei";
+  font-size: 16px;
+  color: #3D1101;
+  font-weight: 100;
+  line-height: auto;
+  font-style: atuo;
+  margin: 15px 0 3px 0; }
+
+.login-form .input-box {
+  width: 270px;
+  height: 32px;
+  padding: 10px;
+  font-size: 14px;
+  color: #3D1101;
+  border: 1px solid #CCCCCC;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #ECECEC;
+  box-shadow: inset 0px 1px 0px 0px #ECECEC;
+  border-radius: 3px; }
+
+.login-form p a {
+  font-family: "Microsoft JhengHei";
+  font-size: 14px;
+  color: #F56C23;
+  font-weight: 100;
+  line-height: auto;
+  font-style: atuo; }
+
+.login-btn {
+  text-align: center;
+  margin-top: 28px; }
+
+.login-btn div {
+  display: inline-block; }
+
+.login-btn a {
+  font-family: "Microsoft JhengHei";
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 100;
+  line-height: auto;
+  font-style: atuo;
+  padding: 6px 48px;
+  background-color: rgba(0, 0, 0, 0.35);
+  border-radius: 3px; }
+
+.login-btn .login {
+  font-family: "Microsoft JhengHei";
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 100;
+  line-height: auto;
+  font-style: atuo;
+  width: auto;
+  height: auto;
+  padding: 6px 48px;
+  background-color: #F56C23;
+  border-radius: 3px;
+  margin: 0 0 0 11px;
+  cursor: pointer; }
+
+.cart-page {
+  padding-top: 48px;
+  padding-bottom: 16px; }
+
+.aside {
+  float: left;
+  width: 25%;
+  height: auto;
+  padding-left: 3%; }
+  @media (max-width: 568px) {
+    .aside {
+      float: none;
+      width: 94%;
+      height: auto;
+      padding: 0;
+      margin: 0 3%; } }
+
+.main {
+  float: left;
+  width: 75%;
+  height: auto;
+  padding-right: 3%; }
+  @media (max-width: 568px) {
+    .main {
+      float: none;
+      width: 94%;
+      height: auto;
+      padding: 0;
+      margin: 3%; } }
+
+.foodlist {
+  font-family: "Microsoft JhengHei";
+  font-size: 20px;
+  color: #3D1101;
+  font-weight: normal;
+  line-height: 32px;
+  font-style: atuo; }
+
+.foodlist i {
+  margin: 0 15px 20px 0; }
+
+.foodlist li {
+  border-bottom: 1px solid #3D1101;
+  cursor: pointer; }
+
+.foodlist .clicked-bg {
+  background-color: #3D1101; }
+
+.foodlist li a {
+  font-family: "Microsoft JhengHei";
+  font-size: 16px;
+  color: #3D1101;
+  font-weight: normal;
+  line-height: auto;
+  font-style: atuo;
+  padding: 3%; }
+
+.foodlist li .clicked {
+  color: #ffffff; }
+
+.top-bar {
+  width: 100%;
+  height: auto; }
+
+.search-bar {
+  float: left;
+  margin-left: 3%; }
+  @media (max-width: 568px) {
+    .search-bar {
+      margin: 0;
+      width: 100%;
+      height: auto; } }
+
+.search-input {
+  border: 2px solid #3D1101;
+  background-color: #EFE9E7;
+  width: 420px;
+  height: 32px;
+  float: left;
+  font-family: "Microsoft JhengHei";
+  font-size: 16px;
+  color: #3D1101;
+  font-weight: normal;
+  line-height: auto;
+  font-style: atuo; }
+  @media (max-width: 768px) {
+    .search-input {
+      width: 350px;
+      height: 32px; } }
+  @media (max-width: 667px) {
+    .search-input {
+      width: 300px;
+      height: 32px; } }
+  @media (max-width: 568px) {
+    .search-input {
+      margin: 0;
+      width: 90%;
+      height: 32px; } }
+  @media (max-width: 375px) {
+    .search-input {
+      width: 89%;
+      height: 32px; } }
+
+.fa-search {
+  font-size: 20px;
+  padding: 6px;
+  color: #ffffff;
+  background-color: #3D1101;
+  cursor: pointer; }
+
+.cart {
+  float: right; }
+  @media (max-width: 568px) {
+    .cart {
+      margin-top: 3%; } }
+
+.cart-text {
+  border-right: 1px solid #3D1101;
+  padding-right: 10px;
+  font-family: "Microsoft JhengHei";
+  font-size: 16px;
+  color: #3D1101;
+  font-weight: normal;
+  line-height: auto;
+  font-style: atuo; }
+
+.icon {
+  position: relative;
+  display: inline-block; }
+
+.fa-shopping-cart {
+  font-size: 29px;
+  padding-left: 10px;
+  color: #3D1101; }
+
+.icon-num {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 16px;
+  height: 16px;
+  font-family: "Microsoft JhengHei";
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: normal;
+  line-height: auto;
+  font-style: atuo;
+  background-color: #F56C23; }
+
+.card-list li {
+  float: left;
+  width: 30.33333%;
+  height: auto;
+  margin: 30px 0 0 3%;
+  -webkit-box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.16);
+  box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.16); }
+  @media (max-width: 667px) {
+    .card-list li {
+      width: 47%;
+      height: 50%; } }
+  @media (max-width: 568px) {
+    .card-list li {
+      margin: 30px 0 0 2%; } }
+  @media (max-width: 375px) {
+    .card-list li {
+      float: none;
+      width: 94%;
+      height: auto;
+      margin: 30px 3% 0 3%;
+      padding-bottom: 1%; } }
+
+.card-photo {
+  width: 100%;
+  height: 120px;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+.fa-heart {
+  font-size: 20px;
+  color: #ffffff;
+  margin: 9px; }
+  @media (max-width: 375px) {
+    .fa-heart {
+      margin: 5% 10%; } }
+
+.card-text {
+  text-align: center;
+  margin: 11px 0 16px 0; }
+
+.card-text h3 {
+  font-family: "Microsoft JhengHei";
+  font-size: 20px;
+  color: #3D1101;
+  font-weight: 100;
+  line-height: auto;
+  font-style: atuo; }
+
+.card-text p {
+  font-family: "Microsoft JhengHei";
+  font-size: 12px;
+  color: #3D1101;
+  font-weight: 100;
+  line-height: auto;
+  font-style: atuo; }
+
+.card-text .line {
+  width: 91px;
+  height: 0;
+  border: 1px solid #3D1101;
+  margin: 8px auto 20px auto; }
+
+.card-text .money {
+  font-family: "Roboto";
+  font-size: 20px;
+  color: #3D1101;
+  font-weight: bold;
+  line-height: auto;
+  font-style: italic; }
+
+.card-add {
+  border: 2px solid #F56C23;
+  border-radius: 3px;
+  display: block;
+  margin: 10px;
+  text-align: center; }
+
+.card-add .fa-shopping-cart {
+  font-size: 14px;
+  color: #F56C23; }
+
+.card-add span {
+  font-family: "Microsoft JhengHei";
+  font-size: 16px;
+  color: #F56C23;
+  font-weight: 100;
+  line-height: auto;
+  font-style: atuo; }
+
+.hot {
+  position: relative;
+  overflow: hidden; }
+
+.ribbon {
+  position: absolute;
+  -webkit-transform: rotate(-315deg);
+  -ms-transform: rotate(-315deg);
+  transform: rotate(-315deg);
+  background: #00CC99;
+  font-family: "Noto Sans TC";
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 600;
+  line-height: auto;
+  font-style: auto;
+  right: -34px;
+  top: 16px; }
+
+.ribbon p {
+  padding: 1px 30px; }
+
+@media (min-height: 1366px) {
+  .register-page {
+    padding-top: 56px;
+    padding-bottom: 164px; } }
+
+.register-top {
+  text-align: center;
+  padding: 50px 0 35px 0; }
+
+.register-title {
+  font-family: "Noto Sans TC";
+  font-size: 48px;
+  color: #3D1101;
+  font-weight: 900;
+  line-height: 56px;
+  font-style: auto; }
+
+.register-top p {
+  font-family: "Noto Sans TC";
+  font-size: 20px;
+  color: #3D1101;
+  font-weight: 600;
+  line-height: auto;
+  font-style: auto; }
+
+.register-form {
+  padding: 15px;
+  margin: 0 auto;
+  width: 620px;
+  height: auto;
+  -webkit-box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.16);
+  box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.16);
+  border-top: 3px solid #F56C23; }
+  @media (max-width: 568px) {
+    .register-form {
+      width: 300px;
+      height: auto; } }
+
+.claimer {
+  width: 48%;
+  height: auto;
+  float: left; }
+  @media (max-width: 568px) {
+    .claimer {
+      float: none;
+      width: 100%;
+      height: auto; } }
+
+.claimer h4 {
+  font-family: "Microsoft JhengHei";
+  font-size: 18px;
+  color: #3D1101;
+  font-weight: 100;
+  line-height: auto;
+  font-style: atuo; }
+
+.claimer p {
+  font-family: "Microsoft JhengHei";
+  font-size: 16px;
+  color: #3D1101;
+  font-weight: 100;
+  line-height: auto;
+  font-style: atuo; }
+
+.register-detail {
+  width: 48%;
+  height: auto;
+  float: left;
+  margin-left: 4%; }
+  @media (max-width: 568px) {
+    .register-detail {
+      float: none;
+      width: 100%;
+      height: auto;
+      margin: 30px 0 0 0; } }
+
+.register-form h3 {
+  text-align: center;
+  font-family: "Noto Sans TC";
+  font-size: 18px;
+  color: #3D1101;
+  font-weight: 900;
+  line-height: auto;
+  font-style: auto;
+  margin-bottom: 15px; }
+
+.register-form label {
+  display: block;
+  font-family: "Microsoft JhengHei";
+  font-size: 16px;
+  color: #3D1101;
+  font-weight: 100;
+  line-height: auto;
+  font-style: atuo; }
+
+.register-form .input-box {
+  width: 100%;
+  height: 32px;
+  padding: 10px;
+  font-size: 14px;
+  color: #3D1101;
+  border: 1px solid #CCCCCC;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #ECECEC;
+  box-shadow: inset 0px 1px 0px 0px #ECECEC;
+  border-radius: 3px;
+  margin: 3px 0 15px 0; }
+
+#ps-confirm {
+  margin: 0; }
+
+.register-form p a {
+  font-family: "Microsoft JhengHei";
+  font-size: 14px;
+  color: #F56C23;
+  font-weight: 100;
+  line-height: auto;
+  font-style: atuo; }
+
+.register-btn {
+  text-align: right;
+  margin-top: 28px; }
+
+.register-btn div {
+  display: inline-block; }
+
+.register-btn a {
+  font-family: "Microsoft JhengHei";
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 100;
+  line-height: auto;
+  font-style: atuo;
+  padding: 6px 48px;
+  background-color: rgba(0, 0, 0, 0.35);
+  border-radius: 3px; }
+
+.register-btn .register {
+  font-family: "Microsoft JhengHei";
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 100;
+  line-height: auto;
+  font-style: atuo;
+  width: auto;
+  height: auto;
+  padding: 6px 48px;
+  background-color: #F56C23;
+  border-radius: 3px;
+  margin: 0 0 0 11px;
+  cursor: pointer; }
